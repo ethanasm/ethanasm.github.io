@@ -374,10 +374,6 @@ section {
     margin-bottom: 0;
 }
 
-.about #bio {
-    margin-top: 10px;
-}
-
 /* --------------------------------------------------------------
 # Skills
 -------------------------------------------------------------- */
@@ -433,14 +429,6 @@ section {
     margin-top: -2px;
     border-left: 2px solid #1f5297;
     position: relative;
-}
-
-.resume .resume-item #btm-edu-list {
-    margin-bottom: 0;
-}
-
-.resume .resume-item #education {
-    border-bottom: 0;
 }
 
 .resume .resume-item h4 {
@@ -539,10 +527,6 @@ section {
     margin-left: 80px;
     line-height: 24px;
     font-size: 14px;
-}
-
-.projects {
-    padding-bottom: 0;
 }
 
 /* --------------------------------------------------------------
