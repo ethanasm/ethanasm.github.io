@@ -220,7 +220,7 @@ h6 {
 #hero {
     width: 100%;
     height: 100vh;
-    background: url("../img/hero-bg.jpg") top center;
+    background: url("../img/hero-bg.JPG") top center;
     background-size: cover;
 }
 
@@ -254,6 +254,7 @@ h6 {
     margin-bottom: 50px;
     font-size: 26px;
     font-family: "Poppins", sans-serif;
+    padding-left: 1%;
 }
 
 #hero p span {
@@ -270,6 +271,14 @@ h6 {
 }
 
 @media (max-width: 768px) {
+    #hero {
+    	background: url("../img/hero-bg-sm.JPG") bottom right;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    #hero .hero-container {
+    	margin-right: 10%;   
+    }
     #hero h1 {
         font-size: 28px;
         line-height: 36px;
@@ -325,10 +334,15 @@ section {
 /* --------------------------------------------------------------
 # About
 -------------------------------------------------------------- */
+.about {
+    padding-bottom: 30px;
+}
+
 .about .content h3 {
     font-weight: 700;
     font-size: 26px;
     color: #173b6c;
+    padding-bottom: 15px;
 }
 
 .about .content ul {
@@ -401,7 +415,7 @@ section {
 }
 
 /* --------------------------------------------------------------
-# Akills
+# Skills
 -------------------------------------------------------------- */
 .skills .progress {
     height: 50px;
@@ -444,6 +458,10 @@ section {
     margin-top: 20px;
     margin-bottom: 20px;
     color: #050d18;
+}
+
+.resume .section-title {
+    padding-bottom: 0;
 }
 
 .resume .resume-item {
