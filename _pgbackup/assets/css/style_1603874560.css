@@ -272,13 +272,14 @@ h6 {
 
 @media (max-width: 768px) {
     #hero {
-    	background: url("../img/hero-bg-sm.JPG") bottom right;
+        background: url("../img/hero-bg-sm.JPG") bottom right;
         background-repeat: no-repeat;
-        background-size: contain;
     }
+
     #hero .hero-container {
-    	margin-right: 10%;   
+        margin-right: 10%;
     }
+
     #hero h1 {
         font-size: 28px;
         line-height: 36px;
@@ -362,6 +363,13 @@ section {
 
 .about .content p:last-child {
     margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    #about-col-1 {
+        padding-bottom: 0;
+        margin-left: 50;
+    }
 }
 
 /* --------------------------------------------------------------
