@@ -220,7 +220,7 @@ h6 {
 #hero {
     width: 100%;
     height: 100vh;
-    background: url("../img/hero-bg.jpg") top center;
+    background: url("../img/hero-bg.JPG") bottom center;
     background-size: cover;
 }
 
@@ -237,7 +237,6 @@ h6 {
 
 #hero .hero-container {
     position: relative;
-    margin-left: 20%;
     z-index: 2;
     min-width: 300px;
 }
@@ -255,6 +254,7 @@ h6 {
     margin-bottom: 50px;
     font-size: 26px;
     font-family: "Poppins", sans-serif;
+    padding-left: 1%;
 }
 
 #hero p span {
@@ -270,7 +270,26 @@ h6 {
     }
 }
 
+@media (min-width: 769px; max-width: 1025px) {
+    #hero {
+        background-position: -99%;
+    }
+
+    #hero .hero-container {
+        margin-top: 300px;
+    }
+}
+
 @media (max-width: 768px) {
+    #hero {
+        background: url("../img/hero-bg-sm.JPG") center right;
+        background-repeat: no-repeat;
+    }
+
+    #hero .hero-container {
+        margin-top: 500px;
+    }
+
     #hero h1 {
         font-size: 28px;
         line-height: 36px;
