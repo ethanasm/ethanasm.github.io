@@ -617,5 +617,5 @@ section {
 }
 
 .bio-thumbnail {
-    margin: auto;
+    vertical-align: center;
 }

@@ -6,9 +6,25 @@
         <title>Ethan Smith</title>         
         <meta content="" name="description"> 
         <meta content="" name="keywords"> 
+        <meta name="format-detection" content="telephone=no"> 
         <!-- Favicons -->         
-        <link href="assets/img/favicon.png" rel="icon"> 
-        <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> 
+        <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/favicon/apple-icon-57x57.png"> 
+        <link rel="apple-touch-icon" sizes="60x60" href="/assets/img/favicon/apple-icon-60x60.png"> 
+        <link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicon/apple-icon-72x72.png"> 
+        <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/favicon/apple-icon-76x76.png"> 
+        <link rel="apple-touch-icon" sizes="114x114" href="/assets/img/favicon/apple-icon-114x114.png"> 
+        <link rel="apple-touch-icon" sizes="120x120" href="/assets/img/favicon/apple-icon-120x120.png"> 
+        <link rel="apple-touch-icon" sizes="144x144" href="/assets/img/favicon/apple-icon-144x144.png"> 
+        <link rel="apple-touch-icon" sizes="152x152" href="/assets/img/favicon/apple-icon-152x152.png"> 
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-icon-180x180.png"> 
+        <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/favicon/android-icon-192x192.png"> 
+        <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png"> 
+        <link rel="icon" type="image/png" sizes="96x96" href="/assets/img/favicon/favicon-96x96.png"> 
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png"> 
+        <link rel="manifest" href="/manifest.json"> 
+        <meta name="msapplication-TileColor" content="#ffffff"> 
+        <meta name="msapplication-TileImage" content="/assets/img/favicon/ms-icon-144x144.png"> 
+        <meta name="theme-color" content="#ffffff"> 
         <!-- Google Fonts -->         
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet"> 
         <!-- Vendor CSS Files -->         
@@ -31,7 +47,7 @@
             <div class="d-flex flex-column"> 
                 <div class="profile"> 
                     <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle"> 
-                    <h1 class="text-light"><a href="index.html">Ethan Smith</a></h1> 
+                    <h1 class="text-light"><a href="">Ethan Smith</a></h1> 
                     <div class="social-links mt-3 text-center"> 
                         <a href="https://www.facebook.com/etthan.smitth/" class="facebook"><i class="bx bxl-facebook"></i></a> 
                         <a href="https://www.instagram.com/ethansmitth/" class="instagram"><i class="bx bxl-instagram"></i></a> 
@@ -43,7 +59,7 @@
                 <nav class="nav-menu"> 
                     <ul> 
                         <li class="active"> 
-                            <a href="index.html"><i class="bx bx-home"></i> <span>Home</span></a> 
+                            <a href="./"><i class="bx bx-home"></i> <span>Home</span></a> 
                         </li>                         
                         <li> 
                             <a href="#about"><i class="bx bx-user"></i> <span>About</span></a> 
@@ -55,7 +71,7 @@
                             <a href="#skills"><i class="bx bx-server"></i> Skills</a> 
                         </li>                         
                         <li> 
-                            <a href="#services"><i class="bx bx-book-content"></i> Projects</a> 
+                            <a href="#projects"><i class="bx bx-book-content"></i> Projects</a> 
                         </li>                         
                     </ul>                     
                 </nav>                 
@@ -76,15 +92,16 @@
         <!-- End Hero -->         
         <main id="main"> 
             <!-- ======= About Section ======= -->             
-            <section id="about" class="about"> 
+            <section id="about" class="about">
                 <div class="container"> 
                     <div class="section-title"> 
                         <h2>About</h2> 
-                        <p>A charismatic and communication-oriented USC student, I am currently in my final semester seeking a software engineering or technical product management position. I desire to help build and work with technology that empowers business to be more intelligent, impactful and secure.</p> 
+                        <p>A charismatic and communication-oriented worker, I am a recent USC graduate seeking a software engineering or technical product management position. I desire to help build and work with technology that empowers business to be more intelligent, impactful, and secure.</p> 
                     </div>                     
                     <div class="row"> 
-                        <div class="col-lg-4 aos-init aos-animate" data-aos="fade-right"> 
-                            <img src="assets/img/profile-img.jpg" class="img-fluid" alt=""> 
+                        <div class="aos-animate aos-init bio-thumbnail col-lg-4" data-aos="fade-right">
+                            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+                            <span> </span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                         </div>                         
                         <div class="col-lg-8 pt-4 pt-lg-0 content aos-init aos-animate" data-aos="fade-left"> 
                             <h3>Software Engineer &amp; UI/UX Designer</h3> 
@@ -97,7 +114,7 @@
                                         </li>                                         
                                         <li> 
                                             <i class="icofont-rounded-right"></i> 
-                                            <strong>Website:</strong> www.ethanasm.io
+                                            <strong>Website:</strong> www.ethanasm.me
                                         </li>                                         
                                         <li> 
                                             <i class="icofont-rounded-right"></i> 
@@ -122,44 +139,43 @@
                                     </ul>                                     
                                 </div>                                 
                             </div>                             
-                            <p>Hello! My name is Ethan and I am currently an undergraduate senior at University of Southern California majoring in computer science and business administration with plans to graduate in the fall. My work experience through past internships has helped me build a foundation of understanding in data warehousing, big data, and product marketing, although I&apos;m eager to get more involved in the development side of software and data security. My passions outside coding include Scouting (where I&apos;m an Eagle Scout and still love being involved), hiking and backpacking, investing and financial technology, and strategy games (such as Civilization, Crusader Kings and board games like Catan).</p> 
+                            <p id="bio">Hello! My name is Ethan and I just completed my undergraduate studies at University of Southern California with a degree in computer science and business administration. While I&apos;m currently seeking a full-time position, I also do side work building websites and some small mobile applications, sometimes for personal use and sometimes as freelance work. My work experience through past internships has helped me build a foundation of understanding in data warehousing, big data, and product marketing, although I&apos;m eager to get more involved in the development side of software and data security. My passions outside coding include hiking and backpacking, Scouting, investing and financial technology, cooking and baking, and strategy games (such as Civilization, Crusader Kings and board games like Catan).</p> 
                         </div>                         
                     </div>                     
-                </div>                 
+                </div>
             </section>             
             <!-- End About Section -->             
             <!-- ======= Resume Section ======= -->             
-            <section id="resume" class="resume"> 
+            <section id="resume" class="resume">
                 <div class="container"> 
                     <div class="section-title"> 
                         <h2>Resume</h2> 
                     </div>                     
                     <div class="row"> 
-                        <div class="col-lg-6" data-aos="fade-up"> 
+                        <div class="col-lg-6 aos-init aos-animate" data-aos="fade-up"> 
                             <h3 class="resume-title">Summary</h3> 
                             <div class="resume-item pb-0"> 
                                 <h4>Ethan Smith</h4> 
-                                <p><i>A charismatic and communication-oriented USC student, I am currently in my final semester seeking a software engineering or technical product management position. I desire to help build and work with technology that empowers business to be more intelligent, impactful and secure.</i></p> 
+                                <p><i>A charismatic and communication-oriented worker, I am a recent USC graduate seeking a software engineering or technical product management position. I desire to help build and work with technology that empowers business to be more intelligent, impactful, and secure.</i></p> 
                                 <ul> 
                                     <li>San Diego, CA</li>                                     
-                                    <li>(925) 699-8460</li>                                     
                                     <li>ethanasm@usc.edu</li>                                     
                                 </ul>                                 
                             </div>                             
                             <h3 class="resume-title">Education</h3> 
-                            <div class="resume-item"> 
+                            <div class="resume-item pb-0" id="education"> 
                                 <h4>B.S. IN COMPUTER SCIENCE AND BUSINESS ADMINISTRATION</h4> 
                                 <h5>08/2017 - 11/2020</h5> 
                                 <p><em>University of Southern California, Los Angeles, CA</em></p> 
-                                <p>Cumulative GPA: 3.65</p> 
-                                <ul> 
+                                <p>Honors: cum laude (GPA: 3.69)</p> 
+                                <ul id="btm-edu-list"> 
                                     <li>V.P. of Communications, Operation Smile USC</li>                                     
                                     <li>Trojan Investing Society</li>                                     
                                     <li>Dean&apos;s List</li>                                     
                                 </ul>                                 
                             </div>                             
                             <h3 class="resume-title">Volunteer Experience</h3> 
-                            <div class="resume-item"> 
+                            <div class="resume-item pb-0"> 
                                 <h4>Eagle Scout</h4> 
                                 <h5>08/2009 - Present</h5> 
                                 <p><i>Boy Scouts of America</i></p> 
@@ -169,7 +185,7 @@
                                 </ul>                                 
                             </div>                             
                         </div>                         
-                        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100"> 
+                        <div class="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100"> 
                             <h3 class="resume-title">Professional Experience</h3> 
                             <div class="resume-item"> 
                                 <h4>Software engineering intern</h4> 
@@ -203,7 +219,7 @@
                                 <h5>06/2018 - 03/2019</h5> 
                                 <p><i>Warner Bros. Digital Networks, Burbank, CA</i></p> 
                                 <ul> 
-                                    <li>Performed manual daily data ingestions of key metrics for 12 pages including Ellen DeGeneres, Ocean's 8, and Machinima across five social media channels in small teams with pair tasking QA procedures</li>                                     
+                                    <li>Performed manual daily data ingestions of key metrics for 12 pages including Ellen DeGeneres, Ocean&apos;s 8, and Machinima across five social media channels in small teams with pair tasking QA procedures</li>                                     
                                     <li>Automated data ingest for Facebook using 
                                         <b>Python</b> and Pentaho which allowed for less manual data ingestion and human errors, increasing the accuracy of the data
                                     </li>                                     
@@ -211,7 +227,7 @@
                             </div>                             
                         </div>                         
                     </div>                     
-                </div>                 
+                </div>
             </section>             
             <!-- End Resume Section -->             
             <!-- ======= Skills Section ======= -->             
@@ -242,9 +258,9 @@
                                 </div>                                 
                             </div>                             
                             <div class="progress"> 
-                                <span class="skill">Kotlin/Android development<i class="val">Intermediate</i></span> 
+                                <span class="skill">Kotlin/Android development<i class="val">Beginner</i></span> 
                                 <div class="progress-bar-wrap"> 
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="66" aria-valuemin="0" aria-valuemax="100"></div>                                     
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="57" aria-valuemin="0" aria-valuemax="100"></div>                                     
                                 </div>                                 
                             </div>                             
                             <div class="progress"> 
@@ -280,7 +296,7 @@
                                 </div>                                 
                             </div>                             
                             <div class="progress"> 
-                                <span class="skill">Javascript<i class="val">Beginner</i></span> 
+                                <span class="skill">Javascript/PHP<i class="val">Beginner</i></span> 
                                 <div class="progress-bar-wrap"> 
                                     <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>                                     
                                 </div>                                 
@@ -295,7 +311,7 @@
                 <div class="container"> 
                     <div class="section-title"> 
                         <h2>Projects</h2> 
-                        <p>The following are technical projects that I am currently working on.</p> 
+                        <p>The following are technical projects that I am currently working on or have worked on in the past six months.</p> 
                     </div>                     
                     <div class="row"> 
                         <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up"> 
